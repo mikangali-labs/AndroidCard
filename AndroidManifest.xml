@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="ActivityHome"
+            android:name="labs.mikangali.androidcard.ActivityHome"
             android:icon="@drawable/ic_launcher"
             android:label="@string/app_name" >
             <intent-filter>
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ActivityCard"
+            android:name="labs.mikangali.androidcard.ActivityCard"
             android:icon="@drawable/ic_launcher"
             android:label="@string/app_name" >
         </activity>
