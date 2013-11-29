@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Carton</string>
+    <string name="card_not_found">Carton introuvable !</string>    
     <string name="carton_jaune">Carton jaune</string>    
     <string name="carton_orange">Carton orange</string>
     <string name="carton_rouge">Carton rouge</string>
+    <string name="copyrights">&#169; Copyrights Mikangali Labs 2013</string>
 
 </resources>

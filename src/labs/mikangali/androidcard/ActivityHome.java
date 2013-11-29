@@ -1,12 +1,14 @@
-package com.test.greetingandroid;
+package labs.mikangali.androidcard;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 
-public class Main extends Activity
+public class ActivityHome extends Activity
 {
+	final static String EXTRA_COLOR_ID = "EXTRA_CARD_COLOR";
+	
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -15,8 +17,8 @@ public class Main extends Activity
     }
     
     public void onClick(View v){
-        Intent intent = new Intent(getBaseContext(), SignoutActivity.class);
-        intent.putExtra("EXTRA_CARTON_ID", v.getId());
+        Intent intent = new Intent(getBaseContext(), ActivityCard.class);
+        intent.putExtra(EXTRA_COLOR_ID, v.getId());
         startActivity(intent);
     }
 }

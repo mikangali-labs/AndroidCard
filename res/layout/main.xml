@@ -2,15 +2,41 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
-              android:layout_height="fill_parent">
+              android:layout_height="fill_parent"
+              android:gravity="center_horizontal|center_vertical">
                 
-    <TextView style="@style/textview_btn_style" android:clickable="true"
-              android:text="@string/carton_jaune" android:onclick="onClick"/>
+    <TextView
+        android:id="@+id/card_yellow"
+        style="@style/textview_home_btn_style"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/btn_gradiant_yellow"
+        android:text="@string/carton_jaune" />
                 
-    <TextView style="@style/textview_btn_style" android:clickable="true"
-              android:text="@string/carton_orange" android:onClick="onClick"/>
+    <TextView
+        android:id="@+id/card_orange"
+        style="@style/textview_home_btn_style"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/btn_gradiant_orange"
+        android:text="@string/carton_orange" />
 
-    <TextView style="@style/textview_btn_style" android:clickable="true"
-              android:text="@string/carton_rouge" android:onClick="onClick"/>                
+    <TextView
+        android:id="@+id/card_red"
+        style="@style/textview_home_btn_style"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/btn_gradiant_red"
+        android:text="@string/carton_rouge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#00FFFFFF"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:text="@string/copyrights" />    
+                
 </LinearLayout>
 
