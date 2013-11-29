@@ -1,6 +1,5 @@
 AndroidCard
 ===========
-____________
 
 Give a colored card like arbiter with your android. This applicatin is a sample android app using :
 
